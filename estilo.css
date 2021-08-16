@@ -1,0 +1,497 @@
+/* CSS Document */
+
+@font-face { 
+	font-family: Epilogue; 
+	src: url('font/Epilogue-Regular.woff'); 
+}
+
+body {
+	font-family: Epilogue;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header {
+	background-attachment: scroll;
+}
+
+.link {
+	position: absolute;
+	top: 35px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 24px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #568FC6;
+}
+
+#link1 {
+	left: 97px;
+}
+
+#link2 {
+	left: 315px;
+	width: 225px;
+}
+
+#link3 {
+	left: 600px;
+}
+
+#link4 {
+	left: 867px;
+}
+
+#link5 {
+	left: 1120px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a.link:visited {
+	color: #568FC6;;
+}
+
+a.link:hover {
+	background: #568FC6;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25.5px;
+	padding-left: 28px;
+	padding-right: 28px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+
+a:active {
+	text-decoration: none;
+
+}
+
+
+#inicio-link {
+	position: absolute;
+	width: 567px;
+	height: 274px;
+	left: 152px;
+	top: 200px;
+}
+
+#titulo1 {
+	position: absolute;
+	width: 567px;
+	height: 274px;
+	left: 152px;
+	top: 294px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: 72px;
+	align-items: center;
+}
+
+.azul {
+	color: #0C437A;
+}
+
+#paragrafo1 {
+	position: absolute;
+	width: 489px;
+	height: 120px;
+	left: 152px;
+	top: 609px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 50px;
+
+	align-items: center;
+
+	color: #474545;
+}
+
+#imagem-inicio {
+	position: absolute;
+	width: 392px;
+	height: 565px;
+	left: 860px;
+	top: 229px;
+}
+
+#sobremim-link {
+	position: absolute;
+	width: 595px;
+	height: 131px;
+	left: 73px;
+	top: 955px;
+}
+
+#titulo2 {
+	position: absolute;
+	width: 595px;
+	height: 131px;
+	left: 73px;
+	top: 998px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 24px;
+
+	display: flex;
+	align-items: center;
+
+	color: #0C437A;
+}
+
+#paragrafo2 {
+	position: absolute;
+	width: 583px;
+	height: 481px;
+	left: 73px;
+	top: 1066px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 55px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+
+	color: #FFFFFF;
+}
+
+#imagem-sobremim {
+	position: absolute;
+	width: 1250.41px;
+	left: -10px;
+	top: 775.26px;
+
+}
+
+#projetos-link {
+	position: absolute;
+	width: 267px;
+	height: 251px;
+	left: 668px;
+	top: 1730px;
+}
+
+#projetos-imagem1 {
+	position: absolute;
+	width: 267px;
+	height: 251px;
+	left: 668px;
+	top: 1775px;
+
+	background: #EBAC0A;
+	border-radius: 21px;
+}
+
+#projetos-imagem2 {
+	position: absolute;
+	width: 267px;
+	height: 251px;
+	left: 969px;
+	top: 1775px;
+
+	background: #180000;
+	border-radius: 21px;
+}
+
+#projetos-imagem3 {
+	position: absolute;
+	width: 267px;
+	height: 251px;
+	left: 668px;
+	top: 2051px;
+
+	background: #0F5CD0;
+	border-radius: 21px;
+}
+
+#projetos-imagem4 {
+	position: absolute;
+	width: 267px;
+	height: 251px;
+	left: 969px;
+	top: 2051px;
+
+	background: #A00F0F;
+	border-radius: 21px;
+}
+
+#titulo3 {
+	position: absolute;
+	width: 595px;
+	height: 131px;
+	left: 73px;
+	top: 1955px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 24px;
+
+	align-items: center;
+
+	color: #0C437A;
+}
+
+#paragrafo3 {
+	position: absolute;
+	width: 489px;
+	height: 355px;
+	left: 73px;
+	top: 2020px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 50px;
+
+	align-items: center;
+
+	color: #000000;
+}
+
+#behance {
+	position: absolute;
+	width: 949.46px;
+	height: 1541.34px;
+	left: -44px;
+	top: 2024px;
+
+}
+
+#paragrafo4 {
+	position: absolute;
+	width: 556px;
+	height: 355px;
+	left: 775px;
+	top: 2884px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 50px;
+
+	align-items: center;
+	text-align: right;
+
+	color: #000000;
+}
+
+#curriculo-link {
+	position: absolute;
+	width: 195px;
+	height: 24px;
+	left: 440.8px;
+	top: 4000.87px;
+}
+
+#botao-curriculo {
+	position: absolute;
+	width: 195px;
+	height: 24px;
+	left: 440.8px;
+	top: 4322.87px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 26px;
+	line-height: 24px;
+
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a.download:link {
+ 	color: #FFFFFF;
+}
+ 
+a.download:visited {
+	color: #FFFFFF;
+}
+
+
+#curriculo-imagem {
+	position: absolute;
+	width: 1358px;
+	height: 1377.28px;
+	left: -10px;
+	top: 3685.87px;
+}
+
+#contato-link {
+	position: absolute;
+	width: 508px;
+	height: 182px;
+	left: 157px;
+	top: 5020px;
+}
+
+#contato-texto1{
+	position: absolute;
+	width: 508px;
+	height: 182px;
+	left: 157px;
+	top: 5145px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 75px;
+	line-height: 82px;
+
+	display: flex;
+	align-items: center;
+
+	color: #0C437A;
+}
+
+#seta{
+	position: absolute;
+	left: 42.43%;
+	right: 56.53%;
+	top: 87.99%;
+	bottom: 11.51%;
+}
+
+#fundo-conversar{
+	position: absolute;
+	width: 540px;
+	height: 111px;
+	left: 145px;
+	top: 5366px;
+
+	background: #568FC6;
+	border-radius: 44px;
+}
+
+#contato-texto2{
+	position: absolute;
+	width: 480px;
+	height: 63px;
+	left: 182px;
+	top: 5385px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 82px;
+
+	align-items: center;
+	letter-spacing: 0.085em;
+
+	color: #FFFFFF;
+}
+
+#contato-texto3{
+	position: absolute;
+	width: 521px;
+	height: 135px;
+	left: 767px;
+	top: 5185px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 82px;
+
+	display: flex;
+	align-items: center;
+	text-align: right;
+	letter-spacing: 0.085em;
+
+	color: #0C437A;
+}
+
+#logo-behance{
+	position: absolute;
+	left: 825px;
+	right: 490px;
+	top: 5314px;
+	bottom: 754px;
+}
+
+#whatsapp{
+	position: absolute;
+	left: 935px;
+	right: 375px;
+	top: 5314px;
+	bottom: 756px;
+}
+
+#linkedin{
+	position: absolute;
+	left: 1039px;
+	right: 270px;
+	top: 5314px;
+	bottom: 758px;
+}
+
+#email{
+	position: absolute;
+	left: 1145px;
+	right: 152px;
+	top: 5314px;
+	bottom: 754px;
+}
+
+#direitos{
+	position: absolute;
+	width: 385px;
+	height: 83px;
+	left: 470px;
+	top: 5990px;
+
+	font-family: Epilogue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 82px;
+
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+#foto-rodape{
+	position: absolute;
+	width: 1358px;
+	height: 451px;
+	left: -19px;
+	top: 5688px;
+}
